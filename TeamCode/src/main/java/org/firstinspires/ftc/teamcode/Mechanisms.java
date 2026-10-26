@@ -22,9 +22,10 @@ public class Mechanisms {
         rightDriveMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         intakeMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 
-        leftDriveMotor.setDirection(DcMotor.Direction.REVERSE);
-        rightDriveMotor.setDirection(DcMotor.Direction.FORWARD);
-        rightIntakeServo.setDirection(DcMotorSimple.Direction.REVERSE);
+        leftDriveMotor.setDirection(DcMotor.Direction.FORWARD);
+        rightDriveMotor.setDirection(DcMotor.Direction.REVERSE);
+        rightIntakeServo.setDirection(DcMotorSimple.Direction.FORWARD);
+        leftIntakeServo.setDirection(DcMotorSimple.Direction.REVERSE);
 
         leftDriveMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         rightDriveMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
