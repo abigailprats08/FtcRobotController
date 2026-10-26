@@ -1,9 +1,6 @@
-package org.firstinspires.ftc.teamcode.BIOBUZZ2027;
+package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
-
-import org.firstinspires.ftc.teamcode.BIOBUZZ2027.mechanisms.ArcadeDrive;
-import org.firstinspires.ftc.teamcode.BIOBUZZ2027.mechanisms.Intake;
 
 public class ArcadeDriveTeleOp extends OpMode {
     ArcadeDrive arcadeDrive = new ArcadeDrive();
